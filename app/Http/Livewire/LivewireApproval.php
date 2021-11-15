@@ -80,7 +80,7 @@ class LivewireApproval extends Component
 
     public function render()
     {
-        $borrowers=LoanDocument::with('borrower')->get();
+        $borrowers=Borrower::with('rate')->get();
         return view('livewire.livewire-approval',compact('borrowers'));
     }
 }

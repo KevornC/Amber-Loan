@@ -11,7 +11,7 @@
                    <th class="w-1/3 px-4 py-3 text-sm font-semibold text-left uppercase">Business Loan Period</th>
                    <th class="w-1/3 px-4 py-3 text-sm font-semibold text-left uppercase">Business Rate</th>
                    <th class="w-1/3 px-4 py-3 text-sm font-semibold text-left uppercase">Business Montly Payment</th>
-                   <th class="w-1/3 px-4 py-3 text-sm font-semibold text-left uppercase">Business Total Payment</th>
+                   <th class="w-1/3 px-10 py-3 text-sm font-semibold text-left uppercase">Business Total Payment</th>
                </tr>
            </thead>
            <tbody class="text-gray-700">
@@ -78,9 +78,9 @@
            <tbody class="text-gray-700">
                @foreach ($borrowers as $item)     
                <tr>
-                   <td class="w-1/3 px-4 py-3 text-left">{{$item->borrower->name}}</td>
-                   <td class="w-1/3 px-4 py-3 text-left">{{$item->borrower->business_name}}</td>
-                   @if($item->borrower->status=='Approved')
+                   <td class="w-1/3 px-4 py-3 text-left">{{$item->name}}</td>
+                   <td class="w-1/3 px-4 py-3 text-left">{{$item->business_name}}</td>
+                   @if($item->status=='Approved')
                    <td class="w-1/3 px-4 py-3 text-left"><a href="" class="no-underline hover:underline" wire:click.prevent="view({{$item->id}})">View</a></td>
                    @else
                    <td class="w-1/3 px-4 py-3 text-left"><a href="" class="no-underline hover:underline" wire:click.prevent="approve({{$item->id}})">
