@@ -15,4 +15,8 @@ class BorrowerController extends Controller
     function index(){
         return view('AmberLoan.borrower');
     }
+
+    function approve(){
+        return view('AmberLoan.approval');
+    }
 }

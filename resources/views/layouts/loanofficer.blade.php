@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABC Evening</title>
+    <title>Amber Loan</title>
     <meta name="description" content="">
     <script src="{{ asset('js/app.js') }}" defer></script>
     
@@ -81,10 +81,11 @@
                 <i class="mr-3 fas fa-tablet-alt"></i>
                 Amber Loan Borrowers
             </a>
-            {{-- <a href="" class="flex items-center py-4 pl-6 text-white opacity-75 hover:opacity-100 nav-item">
-                <i class="mr-3 fas fa-calendar"></i>
-                Class Schedule
-            </a> --}}
+            <a href="{{route('approval')}}" class="flex items-center py-4 pl-6 text-white opacity-75 hover:opacity-100 nav-item">
+                {{-- <i class="mr-3 fas fa-calendar"></i> --}}
+                <i class="mr-3 fas fa-arrow-circle-up"></i>
+                Amber Loan Approval
+            </a>
         </nav>
         {{-- <a href="#" class=" active-nav-link">
             <i class="mr-3 fas fa-arrow-circle-up"></i>

@@ -24,5 +24,6 @@ Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->nam
 Route::get('/AmberLoan/Rates', [\App\Http\Controllers\RateController::class, 'index'])->name('rates');
 Route::get('/AmberLoan/Schedule', [\App\Http\Controllers\ScheduleController::class, 'index'])->name('schedule');
 Route::get('/AmberLoan/Borrowers', [\App\Http\Controllers\BorrowerController::class, 'index'])->name('borrowers');
+Route::get('/AmberLoan/Borrowers/Approval', [\App\Http\Controllers\BorrowerController::class, 'approve'])->name('approval');
 
 

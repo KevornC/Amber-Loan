@@ -130,7 +130,7 @@ a[x-apple-data-detectors='true'] {
       <td style="overflow-wrap:break-word;word-break:break-word;padding:10px 44px 35px;font-family:arial,helvetica,sans-serif;" align="left">
         
   <div style="color: #ffffff; line-height: 190%; text-align: center; word-wrap: break-word;">
-    <p style="font-size: 14px; line-height: 190%;"><span style="font-size: 18px; line-height: 34.2px;"><span style="font-family: Montserrat, sans-serif; line-height: 34.2px; font-size: 18px;">Your loan request have been approved. A loan of ${{$details['P']}} with an interest rate of {{$details['INT']}}% for a loan period of {{$details['time']}} year(s) was approved. Your monhtly payment is ${{$details['MP']}}. Loan Transfer will begin within the 24h hours.</span><span style="font-family: Montserrat, sans-serif; line-height: 34.2px; font-size: 18px;">&nbsp;</span></span></p>
+    <p style="font-size: 14px; line-height: 190%;"><span style="font-size: 18px; line-height: 34.2px;"><span style="font-family: Montserrat, sans-serif; line-height: 34.2px; font-size: 18px;">Your loan request have been approved. A loan of ${{number_format($details['P'],2)}} with an interest rate of {{$details['INT']}}% for a loan period of {{$details['time']}} year(s) was approved. Your monhtly payment is ${{number_format($details['MP'],2)}}. Loan Transfer will begin within the 24h hours.</span><span style="font-family: Montserrat, sans-serif; line-height: 34.2px; font-size: 18px;">&nbsp;</span></span></p>
   </div>
 
       </td>
@@ -159,7 +159,7 @@ a[x-apple-data-detectors='true'] {
   <div style="width: 100% !important;">
   <!--[if (!mso)&(!IE)]><!--><div style="padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"><!--<![endif]-->
   
-<table id="u_content_image_2" style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+{{-- <table id="u_content_image_2" style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
   <tbody>
     <tr>
       <td style="overflow-wrap:break-word;word-break:break-word;padding:0px;font-family:arial,helvetica,sans-serif;" align="left">
@@ -177,7 +177,7 @@ a[x-apple-data-detectors='true'] {
       </td>
     </tr>
   </tbody>
-</table>
+</table> --}}
 
   <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
   </div>
@@ -334,7 +334,7 @@ a[x-apple-data-detectors='true'] {
   
     
     <!--[if (mso)|(IE)]><td width="32" style="width:32px; padding-right: 10px;" valign="top"><![endif]-->
-    <table align="left" border="0" cellspacing="0" cellpadding="0" width="32" height="32" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;margin-right: 10px">
+    {{-- <table align="left" border="0" cellspacing="0" cellpadding="0" width="32" height="32" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;margin-right: 10px">
       <tbody><tr style="vertical-align: top"><td align="left" valign="middle" style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
         <a href="https://facebook.com/" title="Facebook" target="_blank">
           <img src="images/image-2.png" alt="Facebook" title="Facebook" width="32" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important">
@@ -380,7 +380,7 @@ a[x-apple-data-detectors='true'] {
           <img src="images/image-5.png" alt="Vimeo" title="Vimeo" width="32" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important">
         </a>
       </td></tr>
-    </tbody></table>
+    </tbody></table> --}}
     <!--[if (mso)|(IE)]></td><![endif]-->
     
     

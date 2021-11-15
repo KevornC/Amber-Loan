@@ -13,8 +13,8 @@
     <tbody class="text-gray-700">
         <tr>
             <td class="w-1/3 px-4 py-3 text-left">{{$countb}}</td>
-            <td class="w-1/3 px-4 py-3 text-left">${{$totalc}}</td>
-            <td class="w-1/3 px-4 py-3 text-left">${{$totald}}</td>
+            <td class="w-1/3 px-4 py-3 text-left">${{number_format($totalc,2)}}</td>
+            <td class="w-1/3 px-4 py-3 text-left">${{number_format($totald,2)}}</td>
         </tr>
 
     </tbody>

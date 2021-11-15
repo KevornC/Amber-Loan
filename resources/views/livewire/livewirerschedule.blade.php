@@ -119,7 +119,7 @@
                 <td class="w-1/3 px-4 py-3 text-left">{{$item->borrower->telephone}}</td>
                 <td class="w-1/3 px-4 py-3 text-left">{{$item->borrower->business_name}}</td>
                 <td class="w-1/3 px-4 py-3 text-left">{{$item->borrower->rate->b_type}}</td>
-                <td class="w-1/3 px-4 py-3 text-left">${{$item->borrower->loan_amount}}.00</td>
+                <td class="w-1/3 px-4 py-3 text-left">${{number_format($item->borrower->loan_amount,2)}}</td>
                 <td class="w-1/3 px-4 py-3 text-left">{{$item->borrower->repayment_period}} year(s)</td>
                 @if($item->interview_date=='' && $item->interview_time=='')
                 <td class="w-1/3 px-4 py-3 text-left">Not Scheduled Yet</td>
