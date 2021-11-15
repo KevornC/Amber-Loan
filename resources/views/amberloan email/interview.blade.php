@@ -239,7 +239,7 @@ a[x-apple-data-detectors='true'] {
       <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
         
   <div style="color: #656e72; line-height: 140%; text-align: left; word-wrap: break-word;">
-    <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 16px; line-height: 22.4px; font-family: Lato, sans-serif;">If you have any questions or concerns please don't hesitate to get in touch with us<strong>loansupport@amberloan.com</strong>&nbsp;</a></span></p>
+    <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 16px; line-height: 22.4px; font-family: Lato, sans-serif;">If you have any questions or concerns please don't hesitate to get in touch with us <strong>loansupport@amberloan.com</strong>&nbsp;</a></span></p>
   </div>
 
       </td>
